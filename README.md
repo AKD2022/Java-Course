@@ -5,7 +5,7 @@ This is where I will be doing my Java Course work.
 
 
 
-Java is one of the most used programming languages. It's easy to learn and can run on any machine. You can use Java for Web Development, Mobile Development, Automation, and much more.
+Java is one of the most used programming languages. It's easy to learn and can run on any machine. You can use Java for Web Development, Mobile Development, Automation, and much more
 
 Becoming a Java developer creates endless opportunities, and this course will give you a competitive edge
 
