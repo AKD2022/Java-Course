@@ -27,7 +27,6 @@ public class CarMain {
             dealership.setCar(cars[i], i);
         }
 
-
         System.out.println(dealership.getCar(0));
 
 
