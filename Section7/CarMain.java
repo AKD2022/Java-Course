@@ -28,8 +28,9 @@ public class CarMain {
         }
 
         Car newCar = dealership.getCar(0);
+        newCar.setColor("Blue");
 
-        System.out.println(newCar);
+        System.out.println(dealership.getCar(0));
 
 
     }
