@@ -10,7 +10,7 @@ public class Dealership {
     }
 
     public Car getCar(int index) {
-        return this.cars[index];
+        return new Car(this.cars[index]);
     }
 
 }
