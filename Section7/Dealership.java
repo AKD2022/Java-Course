@@ -9,5 +9,8 @@ public class Dealership {
         this.cars[index] = new Car(car);
     }
 
+    public Car getCar(int index) {
+        return this.cars[index];
+    }
 
 }
