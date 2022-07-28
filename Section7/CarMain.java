@@ -27,8 +27,6 @@ public class CarMain {
             dealership.setCar(cars[i], i);
         }
 
-        Car newCar = dealership.getCar(0);
-        newCar.setColor("Blue");
 
         System.out.println(dealership.getCar(0));
 
