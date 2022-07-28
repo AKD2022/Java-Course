@@ -1,6 +1,6 @@
 # JAVA-course
 
-This is where I will be doing my Java Course work.
+This is where I will be doing my Java Course work
 
 
 
