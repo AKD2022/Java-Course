@@ -13,7 +13,7 @@ public class MachineMain {
         
         Machine machine = new Machine(items);
 
-        
+        System.out.println(machine);
        
 
         
