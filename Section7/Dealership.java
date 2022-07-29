@@ -35,8 +35,12 @@ public class Dealership {
 
         for (int i = 0; i < this.cars.length; i++) {
             temp += "Parking Spot: " + i + "\n";
+            if (this.cars == null) {
+                temp += "Empty\n";
+            } else {
+                temp += this.cars[i].toString() + "\n";
+            }
         }
-
         return temp;
     }
 }
