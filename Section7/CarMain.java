@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.concurrent.DelayQueue;
 
 public class CarMain {
     public static void main(String[] args) throws InterruptedException {
