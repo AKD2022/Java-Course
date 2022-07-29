@@ -27,8 +27,9 @@ public class Dealership {
             if (this.cars[i] == null) {
                 continue;
             } else if (this.cars[i].getMake().equals(make) && this.cars[i].getPrice() <= budget) {
-                System.out.println("We found a car in spot " + i);
+                System.out.println("\nWe found a car in spot " + i + "\n\n" + cars[i].toString());
                 System.out.print("If you're interested, type yes: ");
+
                 return i;
             }
         }
@@ -36,7 +37,7 @@ public class Dealership {
         System.out.println("\nYour search did not find and results\n");
         return 404;
 
-        
+
     }
 
     public String toString() {

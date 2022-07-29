@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.concurrent.DelayQueue;
 
 public class CarMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner scan = new Scanner (System.in);
 
         Car[] cars = new Car[]{
@@ -34,13 +34,15 @@ public class CarMain {
 
 
        if (car == 404) {
+        Thread.sleep(1000);
         System.out.println("Feel free to search through our database!: ");
+        Thread.sleep(1000);
         System.out.println(dealership);
        } else {
-        String decision = scan.nextLine();
-        if (decision.equalsIgnoreCase("yes")) {
+            String decision = scan.nextLine();
+            if (decision.equalsIgnoreCase("yes")) {
             dealership.sell(car);
-        }
+            }
        }
 
 
