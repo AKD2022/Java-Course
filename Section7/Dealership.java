@@ -17,4 +17,14 @@ public class Dealership {
         this.cars[index].drive();
         this.cars[index] = null;
     }
+
+    public String search(String make, int budget){
+        for (int i = 0; i < cars.length; i++) {
+            if (this.cars[i].getMake().equals(make) && this.cars[i].getPrice() <= budget) {
+
+            }
+        }
+
+        return "Sorry, we could find any cars";
+    }
 }
