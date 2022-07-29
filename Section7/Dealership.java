@@ -13,4 +13,8 @@ public class Dealership {
         return new Car(this.cars[index]);
     }
 
+    public void sell(int index) {
+        this.cars[index].drive();
+        this.cars[index] = null;
+    }
 }

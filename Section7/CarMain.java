@@ -6,7 +6,7 @@ public class CarMain {
         Car[] cars = new Car[]{
             new Car("Nissan", 5000, 2020, "Red", new String[] {"Tires", "Keys"}),
             new Car("Dodge", 11000, 2019, "Black", new String[] {"Tires", "Keys"}),
-            new Car("Nissan", 5000, 2020, "Yellow", new String[] {"Tires", "Parts"})
+            new Car("Nissan", 5000, 2017, "Yellow", new String[] {"Tires", "Parts"})
         };
 
 
@@ -28,7 +28,7 @@ public class CarMain {
         }
 
         System.out.println(dealership.getCar(0));
-
+        dealership.sell(2);
 
     }
 
