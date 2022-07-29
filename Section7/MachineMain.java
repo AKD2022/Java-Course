@@ -26,14 +26,20 @@ public class MachineMain {
 
         machine.dispense(row, spot);
         System.out.println("\n" + machine);
+        
+        boolean dispensed = machine.dispense(row, spot);
 
-        if (machine.dispense(row, spot) == true) {
+        if (dispensed == true) {
             System.out.print("\nEnjoy your drink! Press 1 to purchase another: ");
-            int another = scan.nextInt();
+            scan.nextInt();
+        } else {
+            System.out.print("\nSorry, we're out of this item. Press 1 to purchase another: ");
         }
-        else {
-            System.out.print("\nSorry, we're out of this item. Press 1 to purchase another: ")
+
+        if (scan.nextInt() != 1) {
+            break;
         }
+        
 
     }
 
