@@ -29,4 +29,14 @@ public class Dealership {
 
         return "Sorry, we could find any cars";
     }
+
+    public String toString() {
+        String temp = "";
+
+        for (int i = 0; i < this.cars.length; i++) {
+            temp += "Parking Spot: " + i + "\n";
+        }
+
+        return temp;
+    }
 }

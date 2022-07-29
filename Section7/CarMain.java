@@ -16,7 +16,7 @@ public class CarMain {
         }
 
         dealership.sell(2);
-        System.out.println(dealership.search("Dodge", 10000));
+        System.out.println(dealership);
 
     }
 
