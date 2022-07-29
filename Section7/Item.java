@@ -38,4 +38,8 @@ public class Item {
         this.price = source.price;
         this.quantity = source.quantity;
     }
+
+    public String toString() {
+        return "Drink: " + this.name + ", $" + this.price + ", (" + this.quantity + ")";
+    }
 }
