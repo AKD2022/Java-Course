@@ -22,16 +22,21 @@ public class Dealership {
         this.cars[index] = null;
     }
 
-    public String search(String make, int budget){
+    public int search(String make, int budget){
         for (int i = 0; i < cars.length; i++) {
             if (this.cars[i] == null) {
                 continue;
             } else if (this.cars[i].getMake().equals(make) && this.cars[i].getPrice() <= budget) {
-                return "\nWe found one in spot " + i + "\n" + this.cars[i].toString() + "\nAre you interested?";
+                System.out.println("We found a car in spot " + i);
+                System.out.print("If you're interested, type yes: ");
+                return i;
             }
         }
 
-        return "Sorry, we could find any cars";
+        System.out.println("\nYour search did not find and results\n");
+        return 404;
+
+        
     }
 
     public String toString() {
