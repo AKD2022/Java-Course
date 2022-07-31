@@ -1,4 +1,3 @@
-package Section8;
 
 public class Breakpoint {
     public static void main(String[] args) {
