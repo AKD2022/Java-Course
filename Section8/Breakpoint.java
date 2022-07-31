@@ -6,6 +6,7 @@ public class Breakpoint {
         long largeNumber = 50000000000L;
         double decimal = 5.3;
         boolean bool = 10 % 2 == 0;
+        
         char character = 'd';
         char character1 = 'e';
         char character2 = 'b';
