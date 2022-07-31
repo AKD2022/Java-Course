@@ -1,0 +1,518 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppleStore",
+            "request": "launch",
+            "mainClass": "AppleStore",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaCalculator",
+            "request": "launch",
+            "mainClass": "AreaCalculator",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysAndLoops",
+            "request": "launch",
+            "mainClass": "ArraysAndLoops",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Beer",
+            "request": "launch",
+            "mainClass": "Beer",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Biography",
+            "request": "launch",
+            "mainClass": "Biography",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch BlackJack",
+            "request": "launch",
+            "mainClass": "BlackJack",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Booleans",
+            "request": "launch",
+            "mainClass": "Booleans",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch BooleansComparison",
+            "request": "launch",
+            "mainClass": "BooleansComparison",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreakAndContinue",
+            "request": "launch",
+            "mainClass": "BreakAndContinue",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuiltInFunctions",
+            "request": "launch",
+            "mainClass": "BuiltInFunctions",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calender",
+            "request": "launch",
+            "mainClass": "Calender",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch CarMain",
+            "request": "launch",
+            "mainClass": "CarMain",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChatBot",
+            "request": "launch",
+            "mainClass": "ChatBot",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Chorus",
+            "request": "launch",
+            "mainClass": "Chorus",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch CounterTool",
+            "request": "launch",
+            "mainClass": "CounterTool",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingTool",
+            "request": "launch",
+            "mainClass": "CountingTool",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dealership",
+            "request": "launch",
+            "mainClass": "Dealership",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Decimals",
+            "request": "launch",
+            "mainClass": "Decimals",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Detention",
+            "request": "launch",
+            "mainClass": "Detention",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiceJack",
+            "request": "launch",
+            "mainClass": "DiceJack",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch DocComments",
+            "request": "launch",
+            "mainClass": "DocComments",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Doubles",
+            "request": "launch",
+            "mainClass": "Doubles",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Drawing",
+            "request": "launch",
+            "mainClass": "Drawing",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenOrOdd",
+            "request": "launch",
+            "mainClass": "EvenOrOdd",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exam",
+            "request": "launch",
+            "mainClass": "Exam",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exams",
+            "request": "launch",
+            "mainClass": "Exams",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstChallenge",
+            "request": "launch",
+            "mainClass": "FirstChallenge",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstProgramJava",
+            "request": "launch",
+            "mainClass": "FirstProgramJava",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForLoops",
+            "request": "launch",
+            "mainClass": "ForLoops",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grocer",
+            "request": "launch",
+            "mainClass": "Grocer",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grocers",
+            "request": "launch",
+            "mainClass": "Grocers",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Guess",
+            "request": "launch",
+            "mainClass": "Guess",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hangman",
+            "request": "launch",
+            "mainClass": "Hangman",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch HighScore",
+            "request": "launch",
+            "mainClass": "HighScore",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Highscores",
+            "request": "launch",
+            "mainClass": "Highscores",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntroToArrays",
+            "request": "launch",
+            "mainClass": "IntroToArrays",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaRolls",
+            "request": "launch",
+            "mainClass": "JavaRolls",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Javapedia",
+            "request": "launch",
+            "mainClass": "Javapedia",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch LotteryTickets",
+            "request": "launch",
+            "mainClass": "LotteryTickets",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch MachineMain",
+            "request": "launch",
+            "mainClass": "MachineMain",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Meeting",
+            "request": "launch",
+            "mainClass": "Meeting",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Megaphone",
+            "request": "launch",
+            "mainClass": "Megaphone",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedLoops",
+            "request": "launch",
+            "mainClass": "NestedLoops",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parameters",
+            "request": "launch",
+            "mainClass": "Parameters",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch PersonMain",
+            "request": "launch",
+            "mainClass": "PersonMain",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch PizzaDelivery",
+            "request": "launch",
+            "mainClass": "PizzaDelivery",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Points",
+            "request": "launch",
+            "mainClass": "Points",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pokerito",
+            "request": "launch",
+            "mainClass": "Pokerito",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prices",
+            "request": "launch",
+            "mainClass": "Prices",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quiz",
+            "request": "launch",
+            "mainClass": "Quiz",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNumbers",
+            "request": "launch",
+            "mainClass": "RandomNumbers",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Receipt",
+            "request": "launch",
+            "mainClass": "Receipt",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReferenceTrap",
+            "request": "launch",
+            "mainClass": "ReferenceTrap",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReturnValues",
+            "request": "launch",
+            "mainClass": "ReturnValues",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch RingAnnouncer",
+            "request": "launch",
+            "mainClass": "RingAnnouncer",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch RockPapersScissors",
+            "request": "launch",
+            "mainClass": "RockPapersScissors",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Scope",
+            "request": "launch",
+            "mainClass": "Scope",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Breakpoints",
+            "request": "launch",
+            "mainClass": "Section8.Breakpoints",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch SignIn",
+            "request": "launch",
+            "mainClass": "SignIn",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch SignUp",
+            "request": "launch",
+            "mainClass": "SignUp",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Survey",
+            "request": "launch",
+            "mainClass": "Survey",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchStatements",
+            "request": "launch",
+            "mainClass": "SwitchStatements",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDArrays",
+            "request": "launch",
+            "mainClass": "TDArrays",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tax",
+            "request": "launch",
+            "mainClass": "Tax",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicTacToe",
+            "request": "launch",
+            "mainClass": "TicTacToe",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tips",
+            "request": "launch",
+            "mainClass": "Tips",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch TypeConversion",
+            "request": "launch",
+            "mainClass": "TypeConversion",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpdatingArrays",
+            "request": "launch",
+            "mainClass": "UpdatingArrays",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Weather",
+            "request": "launch",
+            "mainClass": "Weather",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileLoops",
+            "request": "launch",
+            "mainClass": "WhileLoops",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch WholeNumbers",
+            "request": "launch",
+            "mainClass": "WholeNumbers",
+            "projectName": "Java-Course_1a4c9413"
+        }
+    ]
+}
