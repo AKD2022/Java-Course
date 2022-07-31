@@ -4,6 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch AreaCalculator",
+            "request": "launch",
+            "mainClass": "Section4.AreaCalculator",
+            "projectName": "Java-Course_1a4c9413"
+        },
         {
             "type": "java",
             "name": "Launch Current File",

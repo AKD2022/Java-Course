@@ -1,5 +1,3 @@
-package Section8;
-
 public class Conditionals {
     public static void main(String[] args) {
         String option = "";
