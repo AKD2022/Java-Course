@@ -4,6 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+
         
         {
             "type": "java",
@@ -226,6 +233,13 @@
             "name": "Launch ForLoops",
             "request": "launch",
             "mainClass": "ForLoops",
+            "projectName": "Java-Course_1a4c9413"
+        },
+        {
+            "type": "java",
+            "name": "Launch Functions",
+            "request": "launch",
+            "mainClass": "Functions",
             "projectName": "Java-Course_1a4c9413"
         },
         {
