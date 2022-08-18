@@ -5,6 +5,9 @@ public class Employee {
     private String position;
 
     public Employee(String name, String position) {
+        if (name == null || name.isBlank() || position == null || position.isBlank()) {
+            throw new IllegalArgumentException("Name or position cannot be Null/Blank");
+        }
         this.name = name;
         this.position = position;
     }
