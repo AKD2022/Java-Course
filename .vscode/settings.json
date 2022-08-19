@@ -1,9 +1,9 @@
 {
     "java.project.sourcePaths": [
         "Section8/UncheckedExceptions",
-        "Section8/ThrowingUncheckedExceptions/Models/UncheckedExceptions",
         "Section8/ThrowingUncheckedExceptions",
+        "Section8/Dealership",
         "Section8/CheckedExceptions",
-        "Section8\\Dealership"
+        "Section8/VendingMachine"
     ]
 }

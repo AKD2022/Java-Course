@@ -19,6 +19,14 @@ public class Machine {
         this.items[row][spot] = new Item(item);
     }
 
+    public int getLength() {
+        return this.items.length;
+    }
+
+    public int getRowLength() {
+        return this.items[0].length;
+    }
+
     public void dispense(int row, int spot) {
         if (items[row][spot].getQuantity() == 0) {
             throw new IllegalArgumentException("Cannot dispense 0 items");
