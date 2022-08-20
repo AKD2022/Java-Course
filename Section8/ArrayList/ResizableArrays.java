@@ -6,8 +6,11 @@ public class ResizableArrays {
         
         names.add("Joe");
         names.add("Jim");
-        names.add("John");
+        names.add("John");  
         
+
+        
+
         names.size();
         for (int i = 0; i < names.size(); i++) {
             
