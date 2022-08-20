@@ -4,8 +4,9 @@
         "Section8/UncheckedExceptions",
         "Section8/ThrowingUncheckedExceptions",
         "Section8/Mutable",
+        "Section8/Immutable",
         "Section8/Dealership",
         "Section8/CheckedExceptions",
-        "Section8/Immutable"
+        "Section8/ImmutableWrappers"
     ]
 }
