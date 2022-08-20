@@ -4,6 +4,9 @@ public class Main {
 
         car.setMake("Honda");
 
+        Car car2 = car;
+        car2.setPrice(8000);
+        
 
     }
 }
