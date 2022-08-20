@@ -6,6 +6,6 @@ public class FixedArrays {
         for (int i = 0; i < newGroup.length; i++) {
             newGroup[i] = group[i];
         }
-        newGroup[4] = "Katie";
+        newGroup[3] = "Katie";
     }
 }
