@@ -9,7 +9,7 @@ public class ResizableArrays {
         names.add("John");  
         
         
-
+        
 
         names.size();
         for (int i = 0; i < names.size(); i++) {
