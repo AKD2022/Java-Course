@@ -16,6 +16,6 @@ public class ResizableArrays {
             
         }
 
-        System.out.println();
+        
     }
 }
