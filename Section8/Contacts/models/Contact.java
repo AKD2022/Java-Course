@@ -91,6 +91,9 @@ public class Contact {
             "Age: " + this.age + " year old\n";
     }
 
+    public void add(Contact contact) {
+    }
+
 
 
 }
