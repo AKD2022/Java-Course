@@ -7,8 +7,9 @@
         "Section8/ImmutableWrappers",
         "Section8/Immutable",
         "Section8/Dealership",
+        "Section8/Contacts",
         "Section8/CheckedExceptions",
         "Section8/ArrayList",
-        "Section8/Contacts"
+        "Section8/MovieStore"
     ]
 }
