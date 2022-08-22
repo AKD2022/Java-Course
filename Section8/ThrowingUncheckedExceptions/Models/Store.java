@@ -1,5 +1,7 @@
 package Models;
 
+import models.Movie;
+
 public class Store {
     Employee[] employees;
 
@@ -27,6 +29,9 @@ public class Store {
             temp += "\n";
         }
         return temp;
+    }
+
+    public void addMovie(Movie movie) {
     }
 
 }
