@@ -25,6 +25,10 @@ public class Item {
         this.price = source.price;
         this.quantity = source.quantity;
     }
+    public Item(String string, double d) {
+    }
+    public Item() {
+    }
     public String getName() {
         return name;
     }

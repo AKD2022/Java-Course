@@ -1,5 +1,6 @@
 package Models;
 
+import models.Item;
 import models.Movie;
 
 public class Store {
@@ -32,6 +33,9 @@ public class Store {
     }
 
     public void addMovie(Movie movie) {
+    }
+
+    public static void addItem(Item item) {
     }
 
 }

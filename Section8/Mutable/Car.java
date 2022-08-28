@@ -17,6 +17,9 @@ public class Car {
             this.make = source.make;
             this.price = source.price;    
     }
+    public Car(String string, int i, int j, String string2, String[] strings) {
+    }
+
     public String getMake() {
         return this.make;
     }

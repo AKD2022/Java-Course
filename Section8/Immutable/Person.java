@@ -10,12 +10,22 @@ public class Person {
         this.nationality = nationality;
     }
 
+    public Person(String string, String string2, String string3, int i) {
+    }
+
     public String getName() {
         return name;
     }
 
     public String getNationality() {
         return nationality;
+    }
+
+    public void setPassport() {
+    }
+
+    public boolean applyPassport() {
+        return false;
     }
 
 
