@@ -1,3 +1,5 @@
+package StreamsStarter;
+
 import java.util.ArrayList;
 
 public class Map {
