@@ -10,7 +10,15 @@ public class Main {
     }
 
     public static double getSubtotal() {
-        return 0;
+        double temp = 0;
+        for (int i = 0; i < prices.length; i++) {
+            temp += prices[i];
+        }
+        return temp;
+    }
+
+    public static double getTax(double subtotal) {
+        return subtotal * 0.13;
     }
 
 }

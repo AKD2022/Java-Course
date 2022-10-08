@@ -10,4 +10,9 @@ public class checkoutTest{
     public void subtotalIsValid() {
         assertEquals(19.2, Main.getSubtotal());
     }
+
+    @Test
+    public void taxIsValid() {
+        assertEquals(3.9, Main.getTax(30));
+    }
 }
