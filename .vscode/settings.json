@@ -22,6 +22,11 @@
         "Section10",
         "Section1",
         "HangmanProject",
-        "Section9"
+        "Section9",
+        "Section9/Intro-unit_testing",
+        "Section9/Hascode&Equals",
+        "Section9/HashmapStarter",
+        "Section9/Static",
+        "Section9/StreamsStarter"
     ]
 }
