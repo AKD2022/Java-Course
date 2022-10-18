@@ -15,4 +15,9 @@ public class checkoutTest{
     public void taxIsValid() {
         assertEquals(3.9, Main.getTax(30));
     }
+
+    @Test
+    public void totalIsValid() {
+        assertEquals(113, Main.getTotal(100, 13));
+    }
 }

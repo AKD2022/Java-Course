@@ -24,4 +24,8 @@ public class Main {
         return Double.parseDouble (formatter.format(subtotal * 0.13));
     }
 
+    public static double getTotal(double subtotal, double tax) {
+        return subtotal + tax;
+    }
+
 }
