@@ -1,5 +1,7 @@
 package src.main;
 
+import java.text.DecimalFormat;
+
 public class Main {
     
     static double[] prices = new double[] {2.23, 1.32, 4.32, 11.33};
@@ -18,7 +20,8 @@ public class Main {
     }
 
     public static double getTax(double subtotal) {
-        return subtotal * 0.13;
+        DecimalFormat formatter = new DecimalFormat("#.##");
+        return Double.parseDouble (formatter.format(subtotal * 0.13));
     }
 
 }
