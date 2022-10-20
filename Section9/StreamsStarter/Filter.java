@@ -1,5 +1,3 @@
-package StreamsStarter;
-
 import java.util.ArrayList;
 
 public class Filter {
