@@ -34,7 +34,7 @@ public class OperationChain {
 
     public static void tax(ArrayList<Double> withTax) {
         for (int i = 0; i < withTax.size(); i++) {
-                withTax.set(i, withTax.get(i) * 1.13);
+                withTax.set(i, withTax.get(i));
         }
     }
 
