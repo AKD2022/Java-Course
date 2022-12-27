@@ -24,6 +24,11 @@ public class Store {
     public boolean contains(Movie movie) {
         return this.movies.contains(movie);
     }
+
+    public void sellMovie(String name) {
+        this.movies.removeIf((movie) -> movie.getName().equals(name));
+    }
+
     public String toString() {
         String temp = "";
         for (int i = 0; i < this.movies.size(); i++) {

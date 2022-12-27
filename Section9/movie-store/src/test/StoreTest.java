@@ -1,5 +1,7 @@
 package src.test;
 
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.Before;
@@ -24,4 +26,9 @@ public class StoreTest {
         assertTrue(store.contains(new Movie("The Godfather", "Blue-Ray", 9.1)));
     }
 
+    @Test
+    public void sellMovieTest() {
+        store.sellMovie("The Shawshank Redemption");
+        assertFalse(store.contains(new Movie("The Shawshank Redemption", "Blue-Ray", 9.2)));
+    }
 }
