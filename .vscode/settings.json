@@ -1,31 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "Section9/StreamsStarter",
-        "Section9/Static",
-        "Section9/Intro-unit_testing",
-        "Section9/HashmapStarter",
-        "Section8/VendingMachine",
-        "Section8/UncheckedExceptions",
-        "Section8/ThrowingUncheckedExceptions",
-        "Section8/ShoppingCart",
-        "Section8/Mutable",
-        "Section8/MovieStore",
-        "Section8/ImmutableWrappers",
-        "Section8/Immutable",
-        "Section8/Dealership",
-        "Section8/Contacts",
-        "Section8/ClassCode",
-        "Section8/CheckedExceptions",
-        "Section8/ArrayList",
-        "Section7",
-        "Section6",
-        "Section5",
-        "Section4",
-        "Section3",
-        "Section2",
-        "Section10",
-        "Section1",
         "HangmanProject",
-        "Section9"
     ]
 }
