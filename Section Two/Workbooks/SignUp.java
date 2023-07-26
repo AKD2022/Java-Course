@@ -1,7 +1,8 @@
+package Workbooks;
+
 import java.util.Scanner;
 
 public class SignUp {
-
     public static void main(String[] args) {
         
         // Instructions for this workbook are on Learn the Part (see the Udemy Video: Workbook 2.5 to access the link).

@@ -18,6 +18,7 @@ public class Points {
         points += 60;       
         
         // Compare your result to what's on Learn the Part.
+        System.out.println(points);
         
     }
 }
